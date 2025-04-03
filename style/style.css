@@ -1,0 +1,54 @@
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        #game-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 300px;
+        }
+        #pet-icon {
+            font-size: 40px;
+            margin: 10px 0;
+        }
+        .status-bar {
+            width: 100%;
+            background-color: #ddd;
+            height: 20px;
+            margin: 5px 0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .status-fill {
+            height: 100%;
+            transition: width 0.5s;
+        }
+        #fome .status-fill { background-color: #ff5555; }
+        #felicidade .status-fill { background-color: #55ff55; }
+        #energia .status-fill { background-color: #5555ff; }
+        #nivel {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover { background-color: #45a049; }
+        button:disabled { background-color: #cccccc; cursor: not-allowed; }
+        #message { min-height: 20px; margin: 10px 0; }
+        #name-section { margin-bottom: 15px; }
+        #name-input { padding: 5px; margin-right: 5px; }
